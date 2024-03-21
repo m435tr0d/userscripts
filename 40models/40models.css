@@ -1,0 +1,16 @@
+div#SITE_HEADER > div:first-child > div > div {
+    border: 0 none;
+}
+div#SITE_HEADER div[data-testid="richTextElement"] {
+    margin: 0;
+}
+div#SITE_HEADER div[data-testid="richTextElement"] p {
+    height: 20px;
+    width: 140px;
+}
+div#SITE_HEADER div[data-testid="richTextElement"] p span > span > span > span > span {
+    font-size: 18px;
+}
+div#SITE_HEADER > div:last-child > div > div > div > div:last-child {
+    display: none;
+}
